@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # IL2206 Embedded Systems Laboratory
 
 This repository contains the source files needed to get started with the IL2206 lab. You need to acquire them in one of the following way:
@@ -104,3 +105,6 @@ where each available `[COMMAND]` is printed by calling `make help`.
 Make sure you make use of [`.gitignore`](https://www.atlassian.com/git/tutorials/saving-changes/gitignore) files so that you do not commit (unnecessary) generated files. You should only commit source files (e.g. `.c`, `.h`, `.s`, `.qsys`, `.qsf`, `.vhd`, `.v`, etc.) or your scripts (`.sh`, `Makefile`, etc.). Follow the hints from the [instructions on the course home page](https://kth.instructure.com/courses/6446/pages/setting-up-a-git-repositorty) on the basics of the Git workflow, as well as the documentation referenced there for more advanced topics such as branching and merging.
 
 
+=======
+# embedded-system
+>>>>>>> 114c90fd3624c97b025627e5aed09bec6993cc6c
