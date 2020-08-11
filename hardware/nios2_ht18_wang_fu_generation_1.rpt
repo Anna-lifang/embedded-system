@@ -1,0 +1,288 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=/home/student/Desktop/il2206-lab-master/hardware/ --output-directory=/home/student/Desktop/il2206-lab-master/hardware/nios2_ht18_wang_fu/ --report-file=bsf:/home/student/Desktop/il2206-lab-master/hardware/nios2_ht18_wang_fu.bsf --system-info=DEVICE_FAMILY="Cyclone II" --system-info=DEVICE=EP2C35F672C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=/home/student/Desktop/il2206-lab-master/hardware/nios2_ht18_wang_fu.qsys
+Progress: Loading hardware/nios2_ht18_wang_fu.qsys
+Progress: Reading input file
+Progress: Adding clk [clock_source 13.0]
+Progress: Parameterizing module clk
+Progress: Adding nios2_ht18_wang_fu [altera_nios2_qsys 13.0]
+Progress: Parameterizing module nios2_ht18_wang_fu
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 13.0.1.99.2]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding de2_pio_toggles18 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module de2_pio_toggles18
+Progress: Adding de2_pio_key4 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module de2_pio_key4
+Progress: Adding de2_pio_redled18 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module de2_pio_redled18
+Progress: Adding de2_pio_greenled9 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module de2_pio_greenled9
+Progress: Adding de2_pio_hex_high28 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module de2_pio_hex_high28
+Progress: Adding de2_pio_hex_low28 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module de2_pio_hex_low28
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding sdram [altera_avalon_new_sdram_controller 13.0.1.99.2]
+Progress: Parameterizing module sdram
+Progress: Adding timer_0 [altera_avalon_timer 13.0.1.99.2]
+Progress: Parameterizing module timer_0
+Progress: Adding timer_1 [altera_avalon_timer 13.0.1.99.2]
+Progress: Parameterizing module timer_1
+Progress: Adding p_counter [altera_avalon_performance_counter 13.0.1.99.2]
+Progress: Parameterizing module p_counter
+Progress: Adding ht18_wang_fu [altera_avalon_sysid_qsys 13.0]
+Progress: Parameterizing module ht18_wang_fu
+Progress: Adding sram [altera_up_avalon_sram 13.0]
+Progress: Parameterizing module sram
+Progress: Adding up_clocks_0 [altera_up_clocks 13.0]
+Progress: Parameterizing module up_clocks_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nios2_ht18_wang_fu.de2_pio_toggles18: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: nios2_ht18_wang_fu.de2_pio_key4: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: nios2_ht18_wang_fu.ht18_wang_fu: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: nios2_ht18_wang_fu.ht18_wang_fu: Time stamp will be automatically updated when this component is generated.
+Warning: nios2_ht18_wang_fu.sdram: sdram.s1 must be connected to an Avalon-MM master
+Warning: nios2_ht18_wang_fu.timer_0: timer_0.s1 must be connected to an Avalon-MM master
+Warning: nios2_ht18_wang_fu.timer_1: timer_1.s1 must be connected to an Avalon-MM master
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=/home/student/Desktop/il2206-lab-master/hardware/ --output-directory=/home/student/Desktop/il2206-lab-master/hardware/nios2_ht18_wang_fu/synthesis/ --file-set=QUARTUS_SYNTH --report-file=sopcinfo:/home/student/Desktop/il2206-lab-master/hardware/nios2_ht18_wang_fu.sopcinfo --report-file=html:/home/student/Desktop/il2206-lab-master/hardware/nios2_ht18_wang_fu.html --report-file=qip:/home/student/Desktop/il2206-lab-master/hardware/nios2_ht18_wang_fu/synthesis/nios2_ht18_wang_fu.qip --report-file=cmp:/home/student/Desktop/il2206-lab-master/hardware/nios2_ht18_wang_fu.cmp --report-file=svd --system-info=DEVICE_FAMILY="Cyclone II" --system-info=DEVICE=EP2C35F672C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=/home/student/Desktop/il2206-lab-master/hardware/nios2_ht18_wang_fu.qsys --language=VHDL
+Progress: Loading hardware/nios2_ht18_wang_fu.qsys
+Progress: Reading input file
+Progress: Adding clk [clock_source 13.0]
+Progress: Parameterizing module clk
+Progress: Adding nios2_ht18_wang_fu [altera_nios2_qsys 13.0]
+Progress: Parameterizing module nios2_ht18_wang_fu
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 13.0.1.99.2]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding de2_pio_toggles18 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module de2_pio_toggles18
+Progress: Adding de2_pio_key4 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module de2_pio_key4
+Progress: Adding de2_pio_redled18 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module de2_pio_redled18
+Progress: Adding de2_pio_greenled9 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module de2_pio_greenled9
+Progress: Adding de2_pio_hex_high28 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module de2_pio_hex_high28
+Progress: Adding de2_pio_hex_low28 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module de2_pio_hex_low28
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding sdram [altera_avalon_new_sdram_controller 13.0.1.99.2]
+Progress: Parameterizing module sdram
+Progress: Adding timer_0 [altera_avalon_timer 13.0.1.99.2]
+Progress: Parameterizing module timer_0
+Progress: Adding timer_1 [altera_avalon_timer 13.0.1.99.2]
+Progress: Parameterizing module timer_1
+Progress: Adding p_counter [altera_avalon_performance_counter 13.0.1.99.2]
+Progress: Parameterizing module p_counter
+Progress: Adding ht18_wang_fu [altera_avalon_sysid_qsys 13.0]
+Progress: Parameterizing module ht18_wang_fu
+Progress: Adding sram [altera_up_avalon_sram 13.0]
+Progress: Parameterizing module sram
+Progress: Adding up_clocks_0 [altera_up_clocks 13.0]
+Progress: Parameterizing module up_clocks_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nios2_ht18_wang_fu.de2_pio_toggles18: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: nios2_ht18_wang_fu.de2_pio_key4: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: nios2_ht18_wang_fu.ht18_wang_fu: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: nios2_ht18_wang_fu.ht18_wang_fu: Time stamp will be automatically updated when this component is generated.
+Warning: nios2_ht18_wang_fu.sdram: sdram.s1 must be connected to an Avalon-MM master
+Warning: nios2_ht18_wang_fu.timer_0: timer_0.s1 must be connected to an Avalon-MM master
+Warning: nios2_ht18_wang_fu.timer_1: timer_1.s1 must be connected to an Avalon-MM master
+Info: nios2_ht18_wang_fu: Generating nios2_ht18_wang_fu "nios2_ht18_wang_fu" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 17 modules, 54 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_translator_transform: After transform: 31 modules, 99 connections
+Info: merlin_domain_transform: After transform: 59 modules, 251 connections
+Info: merlin_router_transform: After transform: 73 modules, 296 connections
+Info: merlin_burst_transform: After transform: 74 modules, 299 connections
+Info: reset_adaptation_transform: After transform: 77 modules, 292 connections
+Info: merlin_network_to_switch_transform: After transform: 104 modules, 352 connections
+Info: merlin_width_transform: After transform: 106 modules, 358 connections
+Info: merlin_mm_transform: After transform: 106 modules, 358 connections
+Info: merlin_interrupt_mapper_transform: After transform: 107 modules, 361 connections
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Warning: nios2_ht18_wang_fu: "No matching role found for rst_controller_001:reset_out:reset_req (reset_req)"
+Info: nios2_ht18_wang_fu: Starting RTL generation for module 'nios2_ht18_wang_fu_nios2_ht18_wang_fu'
+Info: nios2_ht18_wang_fu:   Generation command is [exec /opt/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl -I /opt/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /opt/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /opt/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /opt/altera/13.0sp1/quartus/sopc_builder/bin -I /opt/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I /opt/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I /opt/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -I /opt/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -- /opt/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=nios2_ht18_wang_fu_nios2_ht18_wang_fu --dir=/tmp/alt8156_9205305261332558518.dir/0001_nios2_ht18_wang_fu_gen/ --quartus_dir=/opt/altera/13.0sp1/quartus --verilog --config=/tmp/alt8156_9205305261332558518.dir/0001_nios2_ht18_wang_fu_gen//nios2_ht18_wang_fu_nios2_ht18_wang_fu_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+Info: nios2_ht18_wang_fu: # 2019.09.17 10:55:55 (*) Starting Nios II generation
+Info: nios2_ht18_wang_fu: # 2019.09.17 10:55:55 (*)   Checking for plaintext license.
+Info: nios2_ht18_wang_fu: # 2019.09.17 10:55:58 (*)   Couldn't query license setup in Quartus directory /opt/altera/13.0sp1/quartus
+Info: nios2_ht18_wang_fu: # 2019.09.17 10:55:58 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: nios2_ht18_wang_fu: # 2019.09.17 10:56:08 (*)   Plaintext license not found.
+Info: nios2_ht18_wang_fu: # 2019.09.17 10:56:08 (*)   No license required to generate encrypted Nios II/e.
+Info: nios2_ht18_wang_fu: # 2019.09.17 10:56:08 (*)   Elaborating CPU configuration settings
+Info: nios2_ht18_wang_fu: # 2019.09.17 10:56:08 (*)   Creating all objects for CPU
+Info: nios2_ht18_wang_fu: # 2019.09.17 10:56:09 (*)   Generating RTL from CPU objects
+Info: nios2_ht18_wang_fu: # 2019.09.17 10:56:09 (*)   Creating plain-text RTL
+Info: nios2_ht18_wang_fu: # 2019.09.17 10:56:11 (*) Done Nios II generation
+Info: nios2_ht18_wang_fu: Done RTL generation for module 'nios2_ht18_wang_fu_nios2_ht18_wang_fu'
+Info: nios2_ht18_wang_fu: "nios2_ht18_wang_fu" instantiated altera_nios2_qsys "nios2_ht18_wang_fu"
+Info: onchip_memory2_0: Starting RTL generation for module 'nios2_ht18_wang_fu_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec /opt/altera/13.0sp1/quartus/linux/perl/bin/perl -I /opt/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /opt/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /opt/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /opt/altera/13.0sp1/quartus/sopc_builder/bin -I /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=nios2_ht18_wang_fu_onchip_memory2_0 --dir=/tmp/alt8156_9205305261332558518.dir/0002_onchip_memory2_0_gen/ --quartus_dir=/opt/altera/13.0sp1/quartus --verilog --config=/tmp/alt8156_9205305261332558518.dir/0002_onchip_memory2_0_gen//nios2_ht18_wang_fu_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0: Done RTL generation for module 'nios2_ht18_wang_fu_onchip_memory2_0'
+Info: onchip_memory2_0: "nios2_ht18_wang_fu" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: de2_pio_toggles18: Starting RTL generation for module 'nios2_ht18_wang_fu_de2_pio_toggles18'
+Info: de2_pio_toggles18:   Generation command is [exec /opt/altera/13.0sp1/quartus/linux/perl/bin/perl -I /opt/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /opt/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /opt/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /opt/altera/13.0sp1/quartus/sopc_builder/bin -I /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios2_ht18_wang_fu_de2_pio_toggles18 --dir=/tmp/alt8156_9205305261332558518.dir/0003_de2_pio_toggles18_gen/ --quartus_dir=/opt/altera/13.0sp1/quartus --verilog --config=/tmp/alt8156_9205305261332558518.dir/0003_de2_pio_toggles18_gen//nios2_ht18_wang_fu_de2_pio_toggles18_component_configuration.pl  --do_build_sim=0  ]
+Info: de2_pio_toggles18: Done RTL generation for module 'nios2_ht18_wang_fu_de2_pio_toggles18'
+Info: de2_pio_toggles18: "nios2_ht18_wang_fu" instantiated altera_avalon_pio "de2_pio_toggles18"
+Info: de2_pio_key4: Starting RTL generation for module 'nios2_ht18_wang_fu_de2_pio_key4'
+Info: de2_pio_key4:   Generation command is [exec /opt/altera/13.0sp1/quartus/linux/perl/bin/perl -I /opt/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /opt/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /opt/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /opt/altera/13.0sp1/quartus/sopc_builder/bin -I /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios2_ht18_wang_fu_de2_pio_key4 --dir=/tmp/alt8156_9205305261332558518.dir/0004_de2_pio_key4_gen/ --quartus_dir=/opt/altera/13.0sp1/quartus --verilog --config=/tmp/alt8156_9205305261332558518.dir/0004_de2_pio_key4_gen//nios2_ht18_wang_fu_de2_pio_key4_component_configuration.pl  --do_build_sim=0  ]
+Info: de2_pio_key4: Done RTL generation for module 'nios2_ht18_wang_fu_de2_pio_key4'
+Info: de2_pio_key4: "nios2_ht18_wang_fu" instantiated altera_avalon_pio "de2_pio_key4"
+Info: de2_pio_redled18: Starting RTL generation for module 'nios2_ht18_wang_fu_de2_pio_redled18'
+Info: de2_pio_redled18:   Generation command is [exec /opt/altera/13.0sp1/quartus/linux/perl/bin/perl -I /opt/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /opt/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /opt/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /opt/altera/13.0sp1/quartus/sopc_builder/bin -I /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios2_ht18_wang_fu_de2_pio_redled18 --dir=/tmp/alt8156_9205305261332558518.dir/0005_de2_pio_redled18_gen/ --quartus_dir=/opt/altera/13.0sp1/quartus --verilog --config=/tmp/alt8156_9205305261332558518.dir/0005_de2_pio_redled18_gen//nios2_ht18_wang_fu_de2_pio_redled18_component_configuration.pl  --do_build_sim=0  ]
+Info: de2_pio_redled18: Done RTL generation for module 'nios2_ht18_wang_fu_de2_pio_redled18'
+Info: de2_pio_redled18: "nios2_ht18_wang_fu" instantiated altera_avalon_pio "de2_pio_redled18"
+Info: de2_pio_greenled9: Starting RTL generation for module 'nios2_ht18_wang_fu_de2_pio_greenled9'
+Info: de2_pio_greenled9:   Generation command is [exec /opt/altera/13.0sp1/quartus/linux/perl/bin/perl -I /opt/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /opt/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /opt/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /opt/altera/13.0sp1/quartus/sopc_builder/bin -I /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios2_ht18_wang_fu_de2_pio_greenled9 --dir=/tmp/alt8156_9205305261332558518.dir/0006_de2_pio_greenled9_gen/ --quartus_dir=/opt/altera/13.0sp1/quartus --verilog --config=/tmp/alt8156_9205305261332558518.dir/0006_de2_pio_greenled9_gen//nios2_ht18_wang_fu_de2_pio_greenled9_component_configuration.pl  --do_build_sim=0  ]
+Info: de2_pio_greenled9: Done RTL generation for module 'nios2_ht18_wang_fu_de2_pio_greenled9'
+Info: de2_pio_greenled9: "nios2_ht18_wang_fu" instantiated altera_avalon_pio "de2_pio_greenled9"
+Info: de2_pio_hex_high28: Starting RTL generation for module 'nios2_ht18_wang_fu_de2_pio_hex_high28'
+Info: de2_pio_hex_high28:   Generation command is [exec /opt/altera/13.0sp1/quartus/linux/perl/bin/perl -I /opt/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /opt/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /opt/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /opt/altera/13.0sp1/quartus/sopc_builder/bin -I /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios2_ht18_wang_fu_de2_pio_hex_high28 --dir=/tmp/alt8156_9205305261332558518.dir/0007_de2_pio_hex_high28_gen/ --quartus_dir=/opt/altera/13.0sp1/quartus --verilog --config=/tmp/alt8156_9205305261332558518.dir/0007_de2_pio_hex_high28_gen//nios2_ht18_wang_fu_de2_pio_hex_high28_component_configuration.pl  --do_build_sim=0  ]
+Info: de2_pio_hex_high28: Done RTL generation for module 'nios2_ht18_wang_fu_de2_pio_hex_high28'
+Info: de2_pio_hex_high28: "nios2_ht18_wang_fu" instantiated altera_avalon_pio "de2_pio_hex_high28"
+Info: jtag_uart_0: Starting RTL generation for module 'nios2_ht18_wang_fu_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec /opt/altera/13.0sp1/quartus/linux/perl/bin/perl -I /opt/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /opt/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /opt/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /opt/altera/13.0sp1/quartus/sopc_builder/bin -I /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=nios2_ht18_wang_fu_jtag_uart_0 --dir=/tmp/alt8156_9205305261332558518.dir/0008_jtag_uart_0_gen/ --quartus_dir=/opt/altera/13.0sp1/quartus --verilog --config=/tmp/alt8156_9205305261332558518.dir/0008_jtag_uart_0_gen//nios2_ht18_wang_fu_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'nios2_ht18_wang_fu_jtag_uart_0'
+Info: jtag_uart_0: "nios2_ht18_wang_fu" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: sdram: Starting RTL generation for module 'nios2_ht18_wang_fu_sdram'
+Info: sdram:   Generation command is [exec /opt/altera/13.0sp1/quartus/linux/perl/bin/perl -I /opt/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /opt/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /opt/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /opt/altera/13.0sp1/quartus/sopc_builder/bin -I /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=nios2_ht18_wang_fu_sdram --dir=/tmp/alt8156_9205305261332558518.dir/0009_sdram_gen/ --quartus_dir=/opt/altera/13.0sp1/quartus --verilog --config=/tmp/alt8156_9205305261332558518.dir/0009_sdram_gen//nios2_ht18_wang_fu_sdram_component_configuration.pl  --do_build_sim=0  ]
+Info: sdram: Done RTL generation for module 'nios2_ht18_wang_fu_sdram'
+Info: sdram: "nios2_ht18_wang_fu" instantiated altera_avalon_new_sdram_controller "sdram"
+Info: timer_0: Starting RTL generation for module 'nios2_ht18_wang_fu_timer_0'
+Info: timer_0:   Generation command is [exec /opt/altera/13.0sp1/quartus/linux/perl/bin/perl -I /opt/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /opt/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /opt/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /opt/altera/13.0sp1/quartus/sopc_builder/bin -I /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=nios2_ht18_wang_fu_timer_0 --dir=/tmp/alt8156_9205305261332558518.dir/0010_timer_0_gen/ --quartus_dir=/opt/altera/13.0sp1/quartus --verilog --config=/tmp/alt8156_9205305261332558518.dir/0010_timer_0_gen//nios2_ht18_wang_fu_timer_0_component_configuration.pl  --do_build_sim=0  ]
+Info: timer_0: Done RTL generation for module 'nios2_ht18_wang_fu_timer_0'
+Info: timer_0: "nios2_ht18_wang_fu" instantiated altera_avalon_timer "timer_0"
+Info: timer_1: Starting RTL generation for module 'nios2_ht18_wang_fu_timer_1'
+Info: timer_1:   Generation command is [exec /opt/altera/13.0sp1/quartus/linux/perl/bin/perl -I /opt/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /opt/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /opt/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /opt/altera/13.0sp1/quartus/sopc_builder/bin -I /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=nios2_ht18_wang_fu_timer_1 --dir=/tmp/alt8156_9205305261332558518.dir/0011_timer_1_gen/ --quartus_dir=/opt/altera/13.0sp1/quartus --verilog --config=/tmp/alt8156_9205305261332558518.dir/0011_timer_1_gen//nios2_ht18_wang_fu_timer_1_component_configuration.pl  --do_build_sim=0  ]
+Info: timer_1: Done RTL generation for module 'nios2_ht18_wang_fu_timer_1'
+Info: timer_1: "nios2_ht18_wang_fu" instantiated altera_avalon_timer "timer_1"
+Info: p_counter: Starting RTL generation for module 'nios2_ht18_wang_fu_p_counter'
+Info: p_counter:   Generation command is [exec /opt/altera/13.0sp1/quartus/linux/perl/bin/perl -I /opt/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /opt/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /opt/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /opt/altera/13.0sp1/quartus/sopc_builder/bin -I /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_performance_counter -- /opt/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_performance_counter/generate_rtl.pl --name=nios2_ht18_wang_fu_p_counter --dir=/tmp/alt8156_9205305261332558518.dir/0012_p_counter_gen/ --quartus_dir=/opt/altera/13.0sp1/quartus --verilog --config=/tmp/alt8156_9205305261332558518.dir/0012_p_counter_gen//nios2_ht18_wang_fu_p_counter_component_configuration.pl  --do_build_sim=0  ]
+Info: p_counter: Done RTL generation for module 'nios2_ht18_wang_fu_p_counter'
+Info: p_counter: "nios2_ht18_wang_fu" instantiated altera_avalon_performance_counter "p_counter"
+Info: ht18_wang_fu: "nios2_ht18_wang_fu" instantiated altera_avalon_sysid_qsys "ht18_wang_fu"
+Info: sram: Starting Generation of SRAM or SSRAM Controller
+Info: sram: "nios2_ht18_wang_fu" instantiated altera_up_avalon_sram "sram"
+Info: up_clocks_0: Starting Generation of Required Clocks for DE-Series Boards
+Info: up_clocks_0: "nios2_ht18_wang_fu" instantiated altera_up_clocks "up_clocks_0"
+Info: nios2_ht18_wang_fu_instruction_master_translator: "nios2_ht18_wang_fu" instantiated altera_merlin_master_translator "nios2_ht18_wang_fu_instruction_master_translator"
+Info: nios2_ht18_wang_fu_jtag_debug_module_translator: "nios2_ht18_wang_fu" instantiated altera_merlin_slave_translator "nios2_ht18_wang_fu_jtag_debug_module_translator"
+Info: nios2_ht18_wang_fu_instruction_master_translator_avalon_universal_master_0_agent: "nios2_ht18_wang_fu" instantiated altera_merlin_master_agent "nios2_ht18_wang_fu_instruction_master_translator_avalon_universal_master_0_agent"
+Info: nios2_ht18_wang_fu_jtag_debug_module_translator_avalon_universal_slave_0_agent: "nios2_ht18_wang_fu" instantiated altera_merlin_slave_agent "nios2_ht18_wang_fu_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: nios2_ht18_wang_fu_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "nios2_ht18_wang_fu" instantiated altera_avalon_sc_fifo "nios2_ht18_wang_fu_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: addr_router: "nios2_ht18_wang_fu" instantiated altera_merlin_router "addr_router"
+Info: addr_router_001: "nios2_ht18_wang_fu" instantiated altera_merlin_router "addr_router_001"
+Info: id_router: "nios2_ht18_wang_fu" instantiated altera_merlin_router "id_router"
+Info: id_router_002: "nios2_ht18_wang_fu" instantiated altera_merlin_router "id_router_002"
+Info: id_router_004: "nios2_ht18_wang_fu" instantiated altera_merlin_router "id_router_004"
+Info: burst_adapter: "nios2_ht18_wang_fu" instantiated altera_merlin_burst_adapter "burst_adapter"
+Info: rst_controller: "nios2_ht18_wang_fu" instantiated altera_reset_controller "rst_controller"
+Info: cmd_xbar_demux: "nios2_ht18_wang_fu" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_demux_001: "nios2_ht18_wang_fu" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info: cmd_xbar_mux: "nios2_ht18_wang_fu" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: rsp_xbar_demux: "nios2_ht18_wang_fu" instantiated altera_merlin_demultiplexer "rsp_xbar_demux"
+Info: rsp_xbar_demux_004: "nios2_ht18_wang_fu" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_004"
+Info: rsp_xbar_mux: "nios2_ht18_wang_fu" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file /home/student/Desktop/il2206-lab-master/hardware/nios2_ht18_wang_fu/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_001: "nios2_ht18_wang_fu" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info: Reusing file /home/student/Desktop/il2206-lab-master/hardware/nios2_ht18_wang_fu/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: width_adapter: "nios2_ht18_wang_fu" instantiated altera_merlin_width_adapter "width_adapter"
+Info: Reusing file /home/student/Desktop/il2206-lab-master/hardware/nios2_ht18_wang_fu/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file /home/student/Desktop/il2206-lab-master/hardware/nios2_ht18_wang_fu/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: irq_mapper: "nios2_ht18_wang_fu" instantiated altera_irq_mapper "irq_mapper"
+Info: nios2_ht18_wang_fu: Done nios2_ht18_wang_fu" with 37 modules, 184 files, 3657223 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
